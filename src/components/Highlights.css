@@ -1,0 +1,39 @@
+.highlights-section {
+    background-color: white;
+  }
+  
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .highlight-card {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .highlight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlight-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .highlight-card h3 {
+    color: var(--dark-color);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .highlights-grid {
+      grid-template-columns: 1fr;
+    }
+  }
