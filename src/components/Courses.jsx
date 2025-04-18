@@ -71,11 +71,6 @@ const Courses = () => {
             </div>
           ))}
         </div>
-        <div className="course-fee">
-          <h3>Course Fee: <span>₹2.5 Lakhs</span></h3>
-          <p>Includes access to training modules, assessments, projects, soft skills sessions, and placement support.</p>
-          <p><strong>Flexible payment options and scholarships are available.</strong></p>
-        </div>
       </div>
     </section>
   );

@@ -9,9 +9,9 @@ const Highlights = () => {
       description: 'Assured placement assistance backed by real projects and mock interview training.'
     },
     {
-      icon: '🟡',
-      title: 'Trained by IIITH Master\'s Graduates & Industry Experts',
-      description: ''
+      icon: '🟩',
+      title: 'FREE Soft Skills & Communication Training',
+      description: 'Stand out in interviews with professional communication, etiquette, and confidence.'
     },
     {
       icon: '🟢',
@@ -19,14 +19,14 @@ const Highlights = () => {
       description: 'Gain hands-on experience with real-world case studies and applications.'
     },
     {
-      icon: '🟣',
-      title: 'Online Training with Offline & Online Exams',
+      icon: '🟡',
+      title: 'Trained by IIITH Master\'s Graduates & Industry Experts',
       description: ''
     },
     {
-      icon: '🟩',
-      title: 'FREE Soft Skills & Communication Training',
-      description: 'Stand out in interviews with professional communication, etiquette, and confidence.'
+      icon: '🟣',
+      title: 'Online Training with Offline & Online Exams',
+      description: ''
     }
   ];
 

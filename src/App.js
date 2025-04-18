@@ -8,6 +8,7 @@ import Courses from './components/Courses';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot/Chatbot';
+import botGif from './components/Chatbot/bot.gif';
 
 function App() {
   const [chatbotOpen, setChatbotOpen] = useState(false);
@@ -26,7 +27,10 @@ function App() {
         className="chatbot-toggle"
         onClick={() => setChatbotOpen(!chatbotOpen)}
       >
-        {chatbotOpen ? '✕' : '💬'}
+          <img 
+    src={botGif}
+    style={{ width: "100px", height: "100px" }} 
+  />
       </button>
     </div>
   );
