@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import logo192 from '../../public/logo192.png'
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <img src="/logo192.png" alt="PrepSprint Logo" className="logo-img" />
+            <img src={logo192} alt="PrepSprint Logo" className="logo-img" />
             <div className="logo-text">
               <h1>PrepSprint</h1>
               <p>Bridging Talent with Opportunity</p>
