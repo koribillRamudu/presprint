@@ -5,7 +5,7 @@ const Highlights = () => {
   const highlights = [
     {
       icon: '✅',
-      title: '100% Placement Guarantee',
+      title: '100% Placement Assistance',
       description: 'Assured placement assistance backed by real projects and mock interview training.'
     },
     {
