@@ -27,6 +27,11 @@ const Highlights = () => {
       icon: '🟣',
       title: 'Online Training with Offline & Online Exams',
       description: ''
+    },
+    {
+      icon: '🎓',
+      title: 'Scholarship Available',
+      description: 'Scholarships provided to support and encourage learning for all eligible candidates.'
     }
   ];
 
